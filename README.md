@@ -1,6 +1,6 @@
 # PowerShadow
 
-PowerShadow is an advanced, encrypted TCP Command & Control (C2) framework written in PowerShell. It is designed for authorized security testing and educational purposes. PowerShadow features secure key derivation using PBKDF2, a hidden client window, and automated event log clearance on disconnect. The default TCP port is now **9090**.
+PowerShadow is an advanced, encrypted TCP Command & Control (C2) framework written in PowerShell. It is designed for authorized security testing and educational purposes. PowerShadow features secure key derivation using PBKDF2, a hidden client window, and automated event log clearance on disconnect. The default TCP port is **9090**.
 
 > **WARNING:**  
 > This tool is intended for **authorized and ethical** security testing only. Misuse of this tool may be illegal and unethical. Always obtain explicit permission before testing any system.
