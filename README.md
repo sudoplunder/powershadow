@@ -46,5 +46,5 @@ sudo pwsh ./powershadow.ps1 -Mode Server -Port 9090
 ```
 - **Client:**
 ```powershell
-.\powershadow.ps1 -Mode Client -ServerIP 192.168.137.134 -Port 9090
+.\powershadow.ps1 -Mode Client -ServerIP <server_ip> -Port 9090
 ```
