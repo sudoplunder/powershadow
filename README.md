@@ -34,7 +34,7 @@ PowerShadow is an advanced, encrypted TCP Command & Control (C2) framework writt
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/powershadow.git
+   git clone https://github.com/sudoplunder/powershadow.git
    cd powershadow
 
 ## Execution
