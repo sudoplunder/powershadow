@@ -102,8 +102,8 @@ function PowerShadowDecryptText {
 # ----------------- TCP Mode Functions -----------------
 
 if ($Mode -eq "Server") {
-    # Print ASCII Art Banner
-    $asciiArt = @"
+    
+    $banner = @"
                                   _               _               
  _ __   _____      _____ _ __ ___| |__   __ _  __| | _____      __
 | '_ \ / _ \ \ /\ / / _ \ '__/ __| '_ \ / _` |/ _` |/ _ \ \ /\ / /
@@ -112,7 +112,7 @@ if ($Mode -eq "Server") {
 |_|                                                               
                                                                     
 "@
-    Write-Host $asciiArt
+    Write-Host $banner
 
     Write-Host "[*] Running in Encrypted TCP Server Mode"
     $listener = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Any, $Port)
