@@ -10,7 +10,9 @@ PowerShadow is an advanced, encrypted TCP Command & Control (C2) framework writt
 ## Features
 
 - **Encrypted Communication:**  
-  Uses AES‑256 encryption in CBC mode with PKCS7 padding to secure both commands and output.
+   Commands entered on the server are encrypted using AES‑256 (CBC with PKCS7 padding) and sent over TCP
+    with a 4‑byte length prefix. The client decrypts and executes the command, then encrypts the output
+    and sends it back using the same protocol.
 
 - **Secure Key Derivation:**  
   Derives the encryption key and IV from a user‑supplied passphrase (entered securely) and a shared salt using PBKDF2—avoiding hard‑coded keys.
